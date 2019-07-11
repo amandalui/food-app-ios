@@ -64,7 +64,6 @@
                                                         <constraint firstAttribute="height" constant="74" id="A8l-2F-sOR"/>
                                                         <constraint firstAttribute="width" constant="74" id="d7c-bW-DhP"/>
                                                     </constraints>
-                                                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -72,9 +71,8 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dU2-4K-dMX">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dU2-4K-dMX">
                                                     <rect key="frame" x="87" y="8" width="292" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="DMSans-Regular" family="DM Sans" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -90,6 +88,9 @@
                                                 </stackView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="dU2-4K-dMX" firstAttribute="leading" secondItem="bbh-4w-8BW" secondAttribute="trailing" constant="13" id="6eF-GO-MCT"/>
+                                            </constraints>
                                         </view>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -175,7 +176,6 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="4Hv-Zt-vhs" secondAttribute="trailing" id="uJ7-Iy-DSI"/>
                                     <constraint firstItem="4Hv-Zt-vhs" firstAttribute="leading" secondItem="qwe-1e-1bf" secondAttribute="leading" id="wXE-Lm-v3F"/>
-                                    <constraint firstItem="4Hv-Zt-vhs" firstAttribute="leading" secondItem="qwe-1e-1bf" secondAttribute="leading" constant="20" symbolic="YES" id="wuj-35-NFW"/>
                                 </constraints>
                             </stackView>
                         </subviews>
