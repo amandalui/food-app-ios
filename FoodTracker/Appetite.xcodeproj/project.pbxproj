@@ -108,8 +108,8 @@
 				5D50CC2822CF154500FC2EEB /* MealTableViewCell.swift */,
 				5D50CC2A22CF197B00FC2EEB /* MealTableViewController.swift */,
 				5DE15BDB229A73AF00029650 /* Main.storyboard */,
-				5DE15BDE229A73B100029650 /* Assets.xcassets */,
 				5DE15BE0229A73B100029650 /* LaunchScreen.storyboard */,
+				5DE15BDE229A73B100029650 /* Assets.xcassets */,
 				5DE15BE3229A73B100029650 /* Info.plist */,
 				5D50CC2C22D70E4F00FC2EEB /* Fonts */,
 			);
@@ -182,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5DE15BCF229A73AF00029650 /* Build configuration list for PBXProject "FoodTracker" */;
+			buildConfigurationList = 5DE15BCF229A73AF00029650 /* Build configuration list for PBXProject "Appetite" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -469,7 +469,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DE15BCF229A73AF00029650 /* Build configuration list for PBXProject "FoodTracker" */ = {
+		5DE15BCF229A73AF00029650 /* Build configuration list for PBXProject "Appetite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DE15BEF229A73B100029650 /* Debug */,
