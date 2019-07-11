@@ -20,5 +20,11 @@
 	<string>1</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Allows you to add photos to your meals.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>DMSans-Bold.ttf</string>
+		<string>DMSans-Regular.ttf</string>
+		<string>Kreon-Regular.ttf</string>
+	</array>
 </dict>
 </plist>

@@ -11,6 +11,9 @@
 		5D50CC2722C7C4F200FC2EEB /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50CC2622C7C4F200FC2EEB /* Meal.swift */; };
 		5D50CC2922CF154500FC2EEB /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50CC2822CF154500FC2EEB /* MealTableViewCell.swift */; };
 		5D50CC2B22CF197B00FC2EEB /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50CC2A22CF197B00FC2EEB /* MealTableViewController.swift */; };
+		5D50CC3022D70FCD00FC2EEB /* Kreon-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D50CC2F22D70E8600FC2EEB /* Kreon-Regular.ttf */; };
+		5D50CC3122D70FCE00FC2EEB /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D50CC2D22D70E7A00FC2EEB /* DMSans-Regular.ttf */; };
+		5D50CC3222D70FD000FC2EEB /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D50CC2E22D70E7A00FC2EEB /* DMSans-Bold.ttf */; };
 		5DE15BD8229A73AF00029650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE15BD7229A73AF00029650 /* AppDelegate.swift */; };
 		5DE15BDA229A73AF00029650 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE15BD9229A73AF00029650 /* MealViewController.swift */; };
 		5DE15BDD229A73AF00029650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE15BDB229A73AF00029650 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 		5D50CC2622C7C4F200FC2EEB /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		5D50CC2822CF154500FC2EEB /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		5D50CC2A22CF197B00FC2EEB /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		5D50CC2D22D70E7A00FC2EEB /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		5D50CC2E22D70E7A00FC2EEB /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		5D50CC2F22D70E8600FC2EEB /* Kreon-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kreon-Regular.ttf"; sourceTree = "<group>"; };
 		5DE15BD4229A73AF00029650 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE15BD7229A73AF00029650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DE15BD9229A73AF00029650 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D50CC2C22D70E4F00FC2EEB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5D50CC2E22D70E7A00FC2EEB /* DMSans-Bold.ttf */,
+				5D50CC2D22D70E7A00FC2EEB /* DMSans-Regular.ttf */,
+				5D50CC2F22D70E8600FC2EEB /* Kreon-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		5DE15BCB229A73AF00029650 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +111,7 @@
 				5DE15BDE229A73B100029650 /* Assets.xcassets */,
 				5DE15BE0229A73B100029650 /* LaunchScreen.storyboard */,
 				5DE15BE3229A73B100029650 /* Info.plist */,
+				5D50CC2C22D70E4F00FC2EEB /* Fonts */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -189,9 +206,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D50CC3122D70FCE00FC2EEB /* DMSans-Regular.ttf in Resources */,
+				5D50CC3222D70FD000FC2EEB /* DMSans-Bold.ttf in Resources */,
 				5DE15BE2229A73B100029650 /* LaunchScreen.storyboard in Resources */,
 				5DE15BDF229A73B100029650 /* Assets.xcassets in Resources */,
 				5DE15BDD229A73AF00029650 /* Main.storyboard in Resources */,
+				5D50CC3022D70FCD00FC2EEB /* Kreon-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
