@@ -3,7 +3,6 @@
 
 
 ## Resources
-– App based on the *Start Developing iOS Apps (Swift)* lesson `https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/`
+– App based on the [Start Developing iOS Apps (Swift)](https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/) lesson
 
-– Images from Unsplash
-`https://unsplash.com`
+– Images from [Unsplash](https://unsplash.com)
