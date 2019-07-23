@@ -1,5 +1,7 @@
-![alt text](https://github.com/amandalui/food-app-ios/blob/master/Images/app-icon-rounded.png?raw=true)
+![app icon](https://github.com/amandalui/food-app-ios/blob/master/Images/app-icon-rounded.png?raw=true)
 # Appétite—Food tracker app
+
+![app screenshots](https://github.com/amandalui/food-app-ios/blob/master/Images/food-app-screenshots.png?raw=true)
 
 ## To do
 [ ] Fix auto layout localization errors
